@@ -1,0 +1,38 @@
+.cover__link{
+    display: block;
+    padding: 245px 0;
+    text-decoration: none;
+    background: url(../../../images/cover__background.jpg) rgba(42, 44, 47, 0.3);
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    cursor: pointer;
+    color: inherit;
+}
+
+.cover__link:hover{
+    background: url(../../../images/cover__background.jpg) rgba(42, 44, 47, 0.8);
+}
+
+@media (max-width:1024px) {
+    .cover__link{
+        padding: 195px 0;
+    }
+}
+
+@media (max-width:768px) {
+    .cover__link{
+        padding: 115px 0;
+    }
+}
+
+@media (max-width:425px) {
+    .cover__link{
+        padding: 50px 0;
+    }
+}
+
+@media (max-width:320px) {
+    .cover__link{
+        padding: 33px 0;
+    }
+}
