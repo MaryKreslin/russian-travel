@@ -1,23 +1,23 @@
-.photos{
-    max-width: 92.5%;
-    margin: 0 auto;
-    padding-top: 92px;
+.photos {
+  max-width: 92.5%;
+  margin: 0 auto;
+  padding-top: 92px;
 }
 
-@media  (max-width: 1024px) {
-    .photos{
-       max-width: 90.625%;
-    }
+@media (max-width: 1024px) {
+  .photos {
+    max-width: 90.625%;
+  }
 }
 
-@media  (max-width: 768px) {
-    .photos{
-       max-width: 93.75%;
-    }
+@media (max-width: 768px) {
+  .photos {
+    max-width: 93.75%;
+  }
 }
 
-@media  (max-width: 425px) {
-    .photos{
-       max-width: 90%;
-    }
+@media (max-width: 425px) {
+  .photos {
+    max-width: 90%;
+  }
 }

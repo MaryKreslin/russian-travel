@@ -1,4 +1,4 @@
-.place__website{
+.place__website {
   max-width: 456px;
   display: flex;
   flex-direction: column;
@@ -6,11 +6,11 @@
   align-self: end;
 }
 
-@media (max-width: 425px){
-  .place__website{
+@media (max-width: 425px) {
+  .place__website {
     width: 100%;
     padding: 0 16px;
     justify-content: flex-start;
     align-self: start;
-}
+  }
 }
