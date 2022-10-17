@@ -11,6 +11,7 @@
 
 .cover__link:hover {
   background: url(../../../images/cover__background.jpg) rgba(42, 44, 47, 0.8);
+  background-size: 100% 100%;
 }
 
 @media (max-width:1024px) {
