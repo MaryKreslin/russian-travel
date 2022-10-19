@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 710px) {
   .footer {
     max-width: 100%;
     padding: 64px 0 24px 16px;

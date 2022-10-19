@@ -5,3 +5,13 @@
   font-weight: normal;
   line-height: 1.17;
 }
+
+@media (max-width: 320px) {
+.header__link{
+  font-size: 18px;
+  line-height: 1.11;
+}
+}
+.header__link:hover {
+  opacity: .8;
+}

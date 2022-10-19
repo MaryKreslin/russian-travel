@@ -3,8 +3,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
-  color: #FFFFFF;
+  color: #FFF;
   text-decoration: none;
+}
+
+.footer__link:hover {
+  opacity: .8;
 }
 
 @media (max-width: 425px) {
