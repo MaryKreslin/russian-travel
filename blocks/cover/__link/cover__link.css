@@ -8,7 +8,6 @@
   justify-content: center;
   gap: 32px;
   position: relative;
-  width: 100%;
   text-decoration: none;
   background: url(../../../images/cover__background.jpg) no-repeat center;
   background-size: cover;
