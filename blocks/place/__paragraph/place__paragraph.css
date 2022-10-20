@@ -1,5 +1,6 @@
 .place__paragraph {
   min-width: 340px;
+  max-width: 456px;
   width: 100%;
   margin: 0 auto;
   font-style: normal;
@@ -10,14 +11,21 @@
 
 @media (max-width: 1024px) {
   .place__paragraph {
-    min-width: 300px;
-    max-width: 456px;
+    min-width: 310px;
   }
+}
+
+@media (max-width: 870px) {
+.place__paragraph{
+  font-size: 16px;
+  min-width: 300px;
+}
 }
 
 @media (max-width: 768px) {
   .place__paragraph {
-    font-size: 16px;
+    max-width: 352px;
+    min-width: 250px;
   }
 }
 
